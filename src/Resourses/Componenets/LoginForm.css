@@ -1,0 +1,61 @@
+.App {
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin: 5px;
+}
+
+.LoginBlock {
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0, 0, 0, 0);
+    background-color: #14E8FF;
+    padding: 20px;
+    margin: 10px;
+    width: 50%;
+    margin: 25px auto;
+}
+
+.form-input {
+    border-width: 2px;
+    border-color: #cccccc;
+    border-style: solid;
+    padding: 11px;
+    font-size: 22px;
+    border-radius: 15px;
+}
+
+.login-text {
+    color: #444444;
+    /* background: #FFFFFF; */
+    text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+    color: #444444;
+    /* background: #FFFFFF; */
+}
+
+.loginButton {
+	box-shadow: 3px 4px 0px 0px #899599;
+	background:linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+	background-color:#ededed;
+	border-radius:15px;
+	border:1px solid #d6bcd6;
+	display:inline-block;
+	cursor:pointer;
+	color:#3a8a9e;
+	font-family:Arial;
+	font-size:17px;
+	padding:15px 50px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+}
+.loginButton:hover {
+	background:linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+	background-color:#bab1ba;
+}
+.loginButton:active {
+	position:relative;
+	top:1px;
+}
+
+        

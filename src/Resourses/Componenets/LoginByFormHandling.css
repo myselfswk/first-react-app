@@ -1,0 +1,17 @@
+.App {
+    text-align: center;
+}
+
+.css-input {
+    width: 80%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+.btn-submit {
+    padding: 15px 100px;
+    margin: 10px auto;
+    display: block;
+    font-weight: bolder;
+}
