@@ -1,10 +1,10 @@
 import React from 'react';
-import StateJSX from './Resourses/Componenets/StateJSX';
+import Hoisting from './Resourses/Componenets/Hoisting';
 
 function App() {
   return (
     <div>
-      <StateJSX />
+      <Hoisting />
     </div>
   );
 }
