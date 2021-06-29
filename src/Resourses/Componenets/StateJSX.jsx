@@ -12,22 +12,30 @@ function StateJSX() {
         const input = e.target.name;
         const value = e.target.value;
 
-        if (input === "fname") {
-            setFullName((prevValue) => {
-                return {
-                    fname: value,
-                    lname: prevValue.lname
-                }
-            })
-        }
-        else if (input === "lname") {
-            setFullName((prevValue) => {
-                return {
-                    fname: prevValue.fname,
-                    lname: value
-                }
-            })
-        }
+        // if (input === "fname") {
+        //     setFullName((prevValue) => {
+        //         return {
+        //             fname: value,
+        //             lname: prevValue.lname
+        //         }
+        //     })
+        // }
+        // else if (input === "lname") {
+        //     setFullName((prevValue) => {
+        //         return {
+        //             fname: prevValue.fname,
+        //             lname: value
+        //         }
+        //     })
+        // }
+
+        //same thing as we do above
+        setFullName((prev) => {
+            return {
+                ...prev,
+                [input]: value
+            }
+        })
     }
 
     function btnClicked(e) {

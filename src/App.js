@@ -1,10 +1,11 @@
 import React from 'react';
-import Hoisting from './Resourses/Componenets/Hoisting';
+import ContextAPI from './Resourses/Componenets/ContextAPI';
 
 function App() {
+
   return (
     <div>
-      <Hoisting />
+      <ContextAPI />
     </div>
   );
 }

@@ -1,0 +1,97 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: #3D9970;
+    color: white;
+    min-width: fit-content;
+}
+
+li {
+    list-style: none;
+    font-size: 30px;
+    font-weight: bolder;
+    border-bottom: 2px solid #044353;
+    width: 50%;
+}
+
+.svg-wave {
+    position: relative;
+    right: 1px;
+    top: 283px;
+}
+
+@media only screen and (max-width: 1357px) {
+    .svg-wave {
+        top: 338px;
+    }
+}
+
+.form-input {
+    border-width: 2px;
+    border-color: #cccccc;
+    border-style: solid;
+    padding: 11px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 22px;
+    border-radius: 15px;
+}
+
+.addButton {
+    box-shadow: 3px 4px 0px 0px #899599;
+    background: linear-gradient(to bottom, #ededed 5%, #bab1ba 100%);
+    background-color: #ededed;
+    border-radius: 15px;
+    border: 1px solid #d6bcd6;
+    display: inline-block;
+    cursor: pointer;
+    color: #3a8a9e;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 15px 50px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #e1e2ed;
+}
+
+.addButton:hover {
+    background: linear-gradient(to bottom, #bab1ba 5%, #ededed 100%);
+    background-color: #bab1ba;
+}
+
+.addButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.li-del {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 360px) {
+    .li-del {
+        font-weight: lighter;
+        color: #044353;
+    }
+}
+
+.btn-del {
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    display: inline;
+}
+
+.btn-del:hover {
+    font-weight: bolder;
+    background-color: white;
+    color: red;
+}
