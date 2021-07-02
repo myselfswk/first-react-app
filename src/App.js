@@ -1,11 +1,11 @@
 import React from 'react';
-import ContextAPI from './Resourses/Componenets/ContextAPI';
+import HomeContainer from './Resourses/container/HomeContainer';
 
 function App() {
 
   return (
     <div>
-      <ContextAPI />
+      <HomeContainer />
     </div>
   );
 }
