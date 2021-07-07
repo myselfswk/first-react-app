@@ -21,6 +21,13 @@ function SpreadOperatorEcma() {
 
     console.log(infoTwo);
 
+    const arr1 = [1, 2, 3];
+    const arr2 = [4, 5, 6];
+
+    const new_arr = [...arr1, ...arr2];
+
+    console.log(new_arr);
+
     return (
         <div>
             <h1>Spread Operator EcmaScript</h1>

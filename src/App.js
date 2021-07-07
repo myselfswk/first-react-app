@@ -1,11 +1,12 @@
 import React from 'react';
-import HomeContainer from './Resourses/container/HomeContainer';
+// import HomeContainer from './Resourses/container/HomeContainer';
+import SnLNumbersInArray from './Resourses/Components/SnLNumbersInArray';
 
 function App() {
 
   return (
     <div>
-      <HomeContainer />
+      <SnLNumbersInArray />
     </div>
   );
 }

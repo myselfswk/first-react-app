@@ -23,6 +23,7 @@ function PokemonAPI() {
 
         getData();
     })
+    
     return (
         <div className="App">
             <h1>Your Choose {num} Value</h1>

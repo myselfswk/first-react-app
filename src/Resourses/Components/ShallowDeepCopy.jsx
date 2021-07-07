@@ -62,6 +62,11 @@ function ShallowDeepCopy() {
         <div>
             <h1>Shallow Copy and Deep Copy</h1>
             <p>Shallow Copy is when you copy obj1 on obj2, as a result of that when you change obj2, it will impact on obj1</p>
+            <p>
+                Shallow Copy stores the references of objects to the original memory address. Deep copy stores copies of the object's value.
+                ... Deep copy doesn't reflect changes made to the new/copied object in the original object. Shallow Copy stores the copy of
+                the original object and points the references to the objects
+            </p>
         </div>
     )
 }
