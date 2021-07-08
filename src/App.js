@@ -1,12 +1,12 @@
 import React from 'react';
 // import HomeContainer from './Resourses/container/HomeContainer';
-import SnLNumbersInArray from './Resourses/Components/SnLNumbersInArray';
+import ReapetLetterInString from './Resourses/Components/ReapetLetterInString';
 
 function App() {
 
   return (
     <div>
-      <SnLNumbersInArray />
+      <ReapetLetterInString />
     </div>
   );
 }
